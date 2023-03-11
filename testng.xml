@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+        <listeners>
+            <listener class-name="com.qa.listeners.TestListener"></listener>
+        </listeners>
+    <test name="test1">
+        <parameter name="platformName" value="Android"/>
+        <parameter name="deviceName" value="Pixel_6"/>
+        <parameter name="udid" value="emulator-5554"/>
+        <!--        <parameter name="systemPort" value="10000"/>-->
+        <classes>
+            <class name="com.qa.tests.LoginTest"></class>
+<!--            <class name="com.qa.tests.ProductTests"></class>-->
+        </classes>
+    </test>
+
+    <!--    <test name="test2">-->
+    <!--        <parameter name="platformName" value="Android_test2"/>-->
+    <!--        <parameter name="deviceName" value="pixel_6"/>-->
+    <!--        <parameter name="udid" value="emulator-5554"/>-->
+    <!--&lt;!&ndash;        <parameter name="systemPort" value="10001"/>&ndash;&gt;-->
+    <!--        <classes>-->
+    <!--            <class name="com.qa.tests.LoginTest"></class>-->
+    <!--            <class name="com.qa.tests.LoginTest"></class>-->
+    <!--&lt;!&ndash;            <class name="qa.mobile.ProductTests"></class>&ndash;&gt;-->
+    <!--        </classes>-->
+    <!--    </test>-->
+</suite> <!-- Suite -->
